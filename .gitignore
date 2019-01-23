@@ -1,0 +1,8 @@
+/dist
+/build
+/setup.cfg
+*.pyc
+.idea/
+doc/build/
+doc/Makefile
+*.egg-info
