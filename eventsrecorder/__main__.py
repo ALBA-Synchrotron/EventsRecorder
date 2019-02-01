@@ -14,6 +14,7 @@
 # -----------------------------------------------------------------------------
 import argparse
 import os
+import time
 import logging
 import logging.config
 from recorder import AttributeRegister
@@ -87,7 +88,7 @@ def main():
                 print('Error on subscription to {0}.'.format(attr_name))
     try:
         while True:
-            pass
+            time.sleep(.1)
     except (KeyboardInterrupt, SystemExit):
         print('Stopped...')
 
